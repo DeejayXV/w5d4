@@ -1,0 +1,93 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #c0c0c0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+  border: 5px solid #444;
+  background-color: #767676;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.postit1 {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+  padding: 40px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  transform: rotate(-5deg);
+  transition: 0.3s;
+  font-family: "Comic Sans MS", sans-serif;
+  color: #333;
+  text-align: center;
+  cursor: pointer;
+  background-color: #f5f5dc;
+}
+
+.postit2 {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+  padding: 40px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  transform: rotate(5deg);
+  transition: 0.3s;
+  font-family: "Comic Sans MS", sans-serif;
+  color: #333;
+  text-align: center;
+  cursor: pointer;
+  background-color: #ccffcc;
+}
+
+.postit3 {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+  padding: 40px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  transform: rotate(5deg);
+  transition: 0.3s;
+  font-family: "Comic Sans MS", sans-serif;
+  color: #333;
+  text-align: center;
+  cursor: pointer;
+  background-color: #ccccff;
+}
+
+.postit1:hover {
+  transform: rotate(0deg);
+  transform: rotate(0deg) scale(1.2);
+  z-index: 1000;
+}
+
+.postit2:hover {
+  transform: rotate(0deg);
+  transform: rotate(0deg) scale(1.2);
+  z-index: 1000;
+}
+
+.postit3:hover {
+  transform: rotate(0deg);
+  transform: rotate(0deg) scale(1.2);
+  z-index: 1000;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+p {
+  margin: 10px 0 0;
+  font-size: 1.2em;
+}
