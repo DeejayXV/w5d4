@@ -61,7 +61,7 @@ body {
   0% {
     opacity: 0;
     transform: translateY(-100%);
-  } /* da 0-10 le parole entra da sinistra diventando visibile */
+  } /* da 0-10 le parole entra dall'alto diventando visibile */
 
   10% {
     opacity: 1;
@@ -71,7 +71,7 @@ body {
   25% {
     opacity: 1;
     transform: translateY(0%);
-  } /* 25-35 diventa invisibile mentre si sposta a destra */
+  } /* 25-35 diventa invisibile mentre si sposta in basso */
 
   35% {
     opacity: 0;
